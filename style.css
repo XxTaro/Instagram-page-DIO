@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+a:visited{
+    color: inherit;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243,243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.ig-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.ig-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.ig-phone img{
+    width: 50rem;
+}
+
+.login-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    padding: 2.9rem 2rem;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin: 8px;
+}
+ .group:nth-child(1){
+    min-height: 19rem;
+}
+
+.ig-logo{
+    height: 3rem;
+}
+
+input{
+    background-color:#fafafa;
+    padding: 10px 0px;
+    margin-bottom: 4px;
+    border: 1px solid #ececec;
+}
+input:focus {
+    outline: none !important;
+    border: 1px solid #b3b3b3;
+}
+
+@media (max-width:1024px){
+    .ig-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    .ig-wrapper{
+        width: 90%;
+    }
+    .ig-phone{
+        display: none;
+    }
+    .login-area{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.get-apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.separate{
+    margin-top: 8px;
+}
+
+.fb-login{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color:#385185;
+}
+
+.forgot-pwd{
+    margin:0;
+    font-size: 12px;
+    color: #00376b!important;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 12px;
+}
+
+.input-enter{
+    color:white;
+    background-color: #0095f6;
+    border: 0;
+    padding: 10px 127px;
+}
+
+.input-login{
+    padding: 10px 60px;
+}
+
+.create-account{
+    color: #0095f6 !important; 
+}
+
