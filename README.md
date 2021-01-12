@@ -4,3 +4,4 @@ Projeto do Bootcamp HTML Web Developer pela Digital Innovation One (DIO), com al
 
 - [x] 11/01/21 - Iniciação do site, criação da página inicial
 - [x] 12/01/21 - Adição do "get apps" + melhorias visuais
+
