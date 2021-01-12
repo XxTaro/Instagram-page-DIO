@@ -46,7 +46,6 @@ body{
     justify-content: space-around;
     flex-direction: column;
     width: 50%;
-    padding: 2.9rem 2rem;
 }
 .group{
     display: flex;
@@ -54,17 +53,24 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 61%;
     border: 1px solid lightgray;
     margin: 8px;
 }
- .group:nth-child(1){
+
+.group:nth-child(1){
     min-height: 19rem;
+    padding-top: 1.9rem;
+    padding-bottom: 0;
+}
+
+.group:nth-child(2){
+    padding: 1.3rem 0;
 }
 
 .ig-logo{
     height: 3rem;
+    margin-bottom: 32px;
 }
 
 input{
@@ -72,6 +78,7 @@ input{
     padding: 10px 0px;
     margin-bottom: 4px;
     border: 1px solid #ececec;
+    font-size: 13.33px;
 }
 input:focus {
     outline: none !important;
@@ -98,28 +105,54 @@ input:focus {
     }
 }
 
-.get-apps{
+.get-the-app{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
+    width: 65%;
+    padding: 1rem 0;
 }
 
-.separate{
-    margin-top: 8px;
+.get-app{
+    font-size: 14px;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2){
+    background-image: url('./img/googleplay-button.png');
 }
 
 .fb-login{
-    margin-top: 20px;
+    margin-top: 29px;
     justify-content: center;
     align-items: center;
     color:#385185;
+    padding: 0;
 }
 
 .forgot-pwd{
-    margin:0;
     font-size: 12px;
     color: #00376b!important;
+    padding-top: 18px;
+    padding-bottom: 14px;
 }
 
 input::-webkit-input-placeholder{
@@ -130,14 +163,21 @@ input::-webkit-input-placeholder{
     color:white;
     background-color: #0095f6;
     border: 0;
-    padding: 10px 127px;
+    width: 245px;
 }
 
 .input-login{
-    padding: 10px 60px;
+    width: 245px;
+    padding: 10px 4px;
+    height: 38px;
 }
 
 .create-account{
     color: #0095f6 !important; 
 }
 
+.separate{
+    font-size: 13px;
+    color: #8e8e8e;
+    margin-top: 16px;
+}
